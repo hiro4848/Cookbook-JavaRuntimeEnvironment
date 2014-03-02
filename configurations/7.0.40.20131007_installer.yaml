@@ -1,0 +1,18 @@
+---
+:ingredients:
+- :type: :installer
+  :installer_type: :custom
+  :source_url: http://javadl.sun.com/webapps/download/AutoDL?BundleId=80812
+  :package_name: Java 7 Update 40
+  :installer_options: /s REBOOT=Suppress
+  :support_32bit: true
+  :support_64bit: 
+- :type: :installer
+  :installer_type: :custom
+  :source_url: http://javadl.sun.com/webapps/download/AutoDL?BundleId=80814
+  :package_name: Java 7 Update 40 (64-bit)
+  :installer_options: /s REBOOT=Suppress
+  :support_32bit: 
+  :support_64bit: true
+:support_32bit: true
+:support_64bit: true
